@@ -1,0 +1,28 @@
+.Table-cover {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 12;
+  margin: 1em;
+  padding: 1em;
+}
+Table {
+  width: 100%;
+}
+.data-table-header {
+  background-color: #ffccff;
+  width: 20%;
+  height: 5vh;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.data-table-entry {
+  width: 20%;
+  height: 5vh;
+  text-align: center;
+  font-size: 1.2em;
+  border-bottom: 1px rgba(224, 78, 78, 0.973) solid;
+}
+
+tr:hover {
+  background-color: rgb(247, 229, 242);
+}

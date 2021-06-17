@@ -1,0 +1,7 @@
+.Header {
+  grid-column: 2 / span 11;
+  text-align: center;
+  display: block;
+  margin: 1em;
+  padding: 0.5em;
+}

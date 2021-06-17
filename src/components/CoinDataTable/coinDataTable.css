@@ -1,0 +1,31 @@
+.stats-table {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 3;
+  margin-right: 2vh;
+}
+.stats-table tbody {
+  grid-column: 1 / span 3;
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr;
+}
+
+.stats-item {
+  grid-column: 1 / span 3;
+  display: grid;
+  height: 5vh;
+  font-size: 1.2em;
+  grid-template-columns: 1fr 3fr 3fr;
+  border-bottom: 2px solid aqua;
+  padding: 5.4vh 0 5.4vh 0;
+}
+stats-item-header {
+  font-size: 1.2em;
+  text-align: center;
+}
+.stats-icon {
+  padding: auto;
+  text-align: center;
+}
+.cdt49td {
+  text-align: left;
+}

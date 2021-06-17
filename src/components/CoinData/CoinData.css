@@ -1,0 +1,31 @@
+.coin-data-122 {
+  grid-row: 2/3;
+  grid-column: 2/ 12;
+  display: grid;
+  column-gap: 2vw;
+  grid-template-columns: repeat(6, 1 fr);
+  grid-template-rows: auto auto 1fr;
+}
+
+.coin-data-123 {
+  grid-column: 2 / span 5;
+  grid-row: 1 / span 1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.img-icon {
+  grid-column: 2 / span 1;
+  width: 100%;
+}
+
+.stat-header {
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 1;
+  margin-top: 5vh;
+  font-size: 2em;
+}
+
+.coin-data-123 h1 {
+  grid-column: 3/ 7;
+}

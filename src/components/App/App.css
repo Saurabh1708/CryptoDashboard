@@ -1,0 +1,13 @@
+.App {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 1em;
+  align-items: center;
+}
+h1 {
+  font-size: 36px;
+}
+body {
+  background-color: aliceblue;
+}
