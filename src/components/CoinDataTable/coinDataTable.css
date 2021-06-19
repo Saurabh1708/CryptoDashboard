@@ -1,20 +1,9 @@
-.stats-table {
-  grid-row: 3 / span 1;
-  grid-column: 1 / span 3;
-  margin-right: 2vh;
-}
-.stats-table tbody {
-  grid-column: 1 / span 3;
-  display: grid;
-  grid-template-columns: 1fr 3fr 3fr;
-}
-
 .stats-item {
   grid-column: 1 / span 3;
   display: grid;
   height: 5vh;
   font-size: 1.2em;
-  grid-template-columns: 1fr 3fr 3fr;
+  grid-template-columns: 1fr 1fr 1fr;
   border-bottom: 2px solid aqua;
   padding: 5.4vh 0 5.4vh 0;
 }
@@ -28,4 +17,10 @@ stats-item-header {
 }
 .cdt49td {
   text-align: left;
+}
+.cdt41tableouter h2 {
+  text-align: center;
+}
+.stats-item td {
+  text-align: center;
 }

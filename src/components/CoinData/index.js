@@ -64,16 +64,20 @@ class CoinData extends React.Component {
         return (
             <div class="coin-data-122">
                 {this.getHeader()}
-                <h2 class="stat-header">BTC value stats</h2>
+                <div class="cd31outer">
+                    <CoinDataTable supply={supply} symbol={symbol} />
+                    <MarketData symbol={symbol} />
+                </div>
 
-                <CoinDataTable supply={supply} symbol={symbol} />
-                <MarketData symbol={symbol} />
             </div>
 
 
         )
     }
 }
+// 
+
+//<h2 class="stat-header">BTC value stats</h2>
 
 const mapStateToProps = (state) => {
     //console.log(state.coin);

@@ -13,7 +13,7 @@ class CoinDataTable extends React.Component {
     getTable() {
         if (this.props.coin.coin === undefined)
             return <div></div>
-        const { allTimeHigh, price, rank, description, btcPrice, symbol } = this.props.coin.coin;
+        const { allTimeHigh, price, rank, description, btcPrice, symbol, name } = this.props.coin.coin;
         const { circulating, total } = this.props.supply;
         return (
 
@@ -81,8 +81,12 @@ class CoinDataTable extends React.Component {
     }
 
     render() {
+        const { description, name } = this.props.coin.coin;
         return (
-            this.getTable()
+            <div class="cdt41tableouter">
+                <h2>Top {name} statistics</h2>
+                {this.getTable()}
+            </div>
 
         )
     }

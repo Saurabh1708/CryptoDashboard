@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Coin from "../Coin/index";
 import Header from "../Header/index";
@@ -38,7 +38,9 @@ class App extends React.Component {
                         <Route exact path={`/coin/${uuid}`}>
                             <Coin />
                         </Route>
+
                         <Route exact path="/">
+
                             <Search />
                             <CurrencyFilter onCurrencyChange={this.currencyChanged} />
                             <Table currencyUUID={this.state.currencyUUID} sign={this.state.sign} />
